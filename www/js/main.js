@@ -25,7 +25,7 @@ function calcScrollr() {
 
     var _diff = 8;
     var _leftdiff = 0.45;
-    var _startscrollat = $('#non-skrollr').height()+400;
+    var _startscrollat = $('#non-skrollr').height()+250;
     var _margin = 80;
     var _visibleatstart = false;
     var _hideatend = false;

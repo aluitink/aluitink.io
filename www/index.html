@@ -50,40 +50,61 @@ layout: default
 						<ul>
 							<li class="card advantage {{site.css}} white-text darken-1 waves-effect waves-light">
 								<h4>c-sharp</h4>
-								I find C# and the .NET Framework a wonderful environment to work in. The framework provides so much for free and with Microsofts recent open source push and cross platform goals, I feel .NET is the future of development on all platforms.
+								I have been designing and developing enterprise class applications in C#/.NET for the past 5 years. During my time with Quest/Dell I took part in all aspects of the application lifecycle, from planning and design, development and testing, to release and maintenance. We practiced Agile development using a loose Scrum process. I worked with our remote development team in China and helped coordinate releases on time.
+							</li>
+							<li class="card advantage {{site.css}} white-text darken-1 waves-effect waves-light">
+								<h4>iis</h4>
+								The Archive Manager product hosts an ASP.NET website to facilitate e-discovery searching and archvie management. I have experience building IIS applications, sharing cookies across virtual application, troubleshooting application dependancy issues, and programatic IIS configuration.
 							</li>
 							<li class="card advantage {{site.css}} white-text waves-effect waves-light">
 								<h4>ms-sql</h4>
-								Microsoft's SQL Server platform is very powerful, I've designed and maintained enterprise class databases for SQL Server and found it to be powerful yet predictable.
+								Microsoft SQL Server is the primary storage container for Archive Manager. E-Mail messages are normalized and the various parts are stored. A flattened linked list is used for directory hierarchy. I've designed stored procedures using standard T-SQL as well as Dynamic SQL. When troubleshooting performance issues in customer environments, I had needed to mock the execution and generate execution plans to determine performance bottlenecks.
+							</li>
+							<li class="card advantage {{site.css}} white-text waves-effect waves-light">
+								<h4>active-directory</h4>
+								Building development and QA labs allowed me to play sys-admin many times. I've built many Active Directory deployments including, single domain, multiple domain, child-parent domains, multiple forest, user/resource forest. Archive Manager supports Exchange environments so we needed every concivable Active Directory configuration possible for research and testing. I have developed applications that can query and filter Active Directory and understand how to use the directory services utilities as well as how to interact using standard LDAP/LDAPS.
+							</li>
+							<li class="card advantage {{site.css}} white-text waves-effect waves-light">
+								<h4>groupwise</h4>
+								The GroupWise Type Library is a COM callable library that I have used to access post offices and mailbox data from GroupWise. We created a COM Object Wrapper to manage reference counting and ensure proper disposing of COM objects. Before we had a COW, we had many issues with access violations and handle leaks.
 							</li>
 							<li class="card advantage {{site.css}} white-text darken-1 waves-effect waves-light">
 								<h4>java-script</h4>
-								Web everything is the future for end users. Rich responsive websites built using frameworks like AngularJS and React will change the way people experience the internet.
+								Web everything is the future for end users. Rich responsive websites built using frameworks like AngularJS and React will change the way people experience the Internet. Dell's Common UI libaray is written in AngularJS and Sass, I have used these and other open source libraries to build projects and proof of concepts.
 							</li>
 							<li class="card advantage {{site.css}} white-text waves-effect waves-light">
 								<h4>power-shell</h4>
-								I can't say enough about PowerShell, when it was first introduced, the syntax scared me and the thought of a Unix like environment on Windows, just made little sense. I have since come to love it as it has helped me many times pull wild solutions out of thin air while on support calls with customers. Much powerful, Very enjoy, Great tool!
-							</li>
+								PowerShell is an great tool, I've developed many scripts we have used in customer environments for data recovery and system configuration. One of the new technologies that seems useful is Desired State Configuration, a declaritive method for configuring Windows machines via PowerShell. I have some experience writing PowerShell modules in C#, we had been in talks about building a PowerShell wrapper around our SDK to make testing easier for the QA and Automation teams.
+							</li>								
 						</ul>
 					</div>
 					<div class="col s12 m6">
 						<ul>
 							<li class="card advantage {{site.css}} white-text waves-effect waves-light">
 								<h4>windows-server</h4>
-								Windows Server is becoming more powerful and more stable every release. The configuration offerings of a Windows Server provides any enterprise with more than they will ever need.
+								Windows Server has been my home for the past 5 years, from 2003 to 2012 R2, I have experience implementing servers in various roles and maintaing the deployments.
+							</li>
+							<li class="card advantage {{site.css}} white-text darken-1 waves-effect waves-light">
+								<h4>exchange</h4>
+								I have built, managed, and maintained Exchange Server deployments used in development and testing. I have experience with MAPI, both implementation and troubleshooting, and I have a strong understanding of the MAPI architecture.
+							</li>
+							<li class="card advantage {{site.css}} white-text waves-effect waves-light">
+								<h4>e-directory</h4>
+								Novell e-Directory is going to be my least favorite, I was generally facinated by e-Directory in my earlier years, but as I was faced with more issues and very obscure help, I started to feel like e-Directory was an antiquated system. Unfortunantly I was still required to support our softwares integration with the platform. I have experience using the Novell Admin libraries, we used them to enumerate users from the directory and discover other environmental information required for archiving GroupWise mailboxes.
 							</li>
 							<li class="card advantage {{site.css}} white-text darken-1 waves-effect waves-light">
 								<h4>linux</h4>
-								Linux brings out the hacker in me, I have always loved problem solving in Linux. From my first attempts at building a software package from source then realizing there are Package Managers, to my hobby builds of Gentoo. I love the versitility of Linux.
+								Linux brings out the hacker in me, I have always loved problem solving in Linux. From my first attempts at building a software package from source without glibc .. then realizing there are Package Managers, to my hobby builds of Gentoo, seeing how small I can get the Kernel and how fast I can boot a machine. I love the versitility of Linux and I love the challenge of putting Linux on everything.
 							</li>
 							<li class="card advantage {{site.css}} white-text waves-effect waves-light">
 								<h4>virtualization</h4>
-								VMWare Workstation, ESXi, Hyper-V, OpenBox. Virtualization is a powerful tool and a developer that understands how to use this tool will work faster and smarter and bother your IS team far less.
+								VMWare Workstation, ESXi, Hyper-V, OpenBox. Virtualization is a powerful tool and a developer that understands how to use this tool will work faster and smarter and bother your IS team far less. I inherited an ESXi server from my predecessor and loved the memory management but disliked the lack of linked clones. I also found that if you make a backup of a disk file, it expands the disk file and can cost you hundreds of gigabytes in whitespace. I took it upon myself to remedy these issues by creating a script to generate linked clones by manually editing VMDK and VMX files, then I built a nightly rolling backup agent that uses a statically linked version of rsync and hardlinks to create very efficent nightly full backups. The system has been stable for 4 years.
 							</li>
 							<li class="card advantage {{site.css}} white-text darken-1 waves-effect waves-light">
 								<h4>containerization</h4>
 								I'm not sure if containerization is a real word, but I have heard it used a lot. Docker seems to be the future! This website is hosted in a Docker container, on Linux virtual machines, in my home office.
 								I was able to build this website without having to understand the various technologies that the template is built from. Deploy, Test, Change, Retest.
+								<p><a href="https://youtu.be/aLipr7tTuA4" target="_blank">What is Docker?</a></p>
 							</li>
 						</ul>
 					</div>
@@ -151,7 +172,7 @@ layout: default
 				<div class="container-fluid">
 				<p>
 				I love to invent, design, and build. Nothing excites me more that dreaming up a new idea and trying to build it. I have had many projects in the past, some I have finished, some I have abandond. I feel the main goal is not always to finish something, but to learn something.
-				Each invention I have, I draw from previous experiences to try and build a better pattern. I have not always been good about maintaing these inventions in source control. Here is what I have currently available.
+				Each invention I have, I draw from previous experiences to try and build a better pattern. I have not always been good about maintaing these inventions in source control. I'm in the process of getting my work placed in repositories, here is what I have currently available.
 				</p>
 				</div>
 			</div>
@@ -183,8 +204,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Post</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                    <button onClick="window.open('https://github.com/aluitink/Ojibwe');" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Repository</button>
                 </div>
             </div>
         </div>
@@ -209,8 +229,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Post</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">Repository Unavailable</button>
                 </div>
             </div>
         </div>
@@ -220,7 +239,7 @@ layout: default
                 <div class="cover z-depth-1" style="background-image: url('{{site.baseurl}}/img/0.jpg');">
                     <div class="filter {{site.css}}">
                         <div class="cover-text {{ site.css }}-text text-darken-4">
-                            Doradus Client
+                            DoradusClient
                         </div>
                     </div>
                 </div>
@@ -232,8 +251,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Post</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">Repository Unavailable</button>
                 </div>
             </div>
         </div>
@@ -256,8 +274,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Post</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">Repository Unavailable</button>
                 </div>
             </div>
         </div>
@@ -279,8 +296,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="https://github.com/aluitink/Nox" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Repository</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                    <button onClick="window.open('https://github.com/aluitink/Nox');" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Repository</button>
                 </div>
         </div>
             </div>
@@ -304,8 +320,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Post</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">Repository Unavailable</button>
                 </div>
             </div>
         </div>
@@ -327,8 +342,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="https://github.com/aluitink/NntpClient" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Repository</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                    <button onClick="window.open('https://github.com/aluitink/NntpClient');" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Repository</button>
                 </div>
             </div>
         </div>
@@ -339,7 +353,7 @@ layout: default
                 <div class="cover z-depth-1" style="background-image: url('{{site.baseurl}}/img/0.jpg');">
                     <div class="filter {{site.css}}">
                         <div class="cover-text {{ site.css }}-text text-darken-4">
-                            Neural Network
+                            NeuralNetwork
                         </div>
                     </div>
                 </div>
@@ -350,8 +364,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Post</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                    <button onClick="window.open('https://github.com/aluitink/NeuralNetwork');" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Repository</button>
                 </div>
             </div>
         </div>
@@ -372,8 +385,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="https://github.com/aluitink/Lucandrew" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Repository</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                    <button onClick="window.open('https://github.com/aluitink/Lucandrew');" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Repository</button>
                 </div>
             </div>
         </div>
@@ -398,12 +410,10 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Post</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">Repository Unavailable</button>
                 </div>
             </div>
         </div>
-
 
         <div class="scroll-1">
             <div class="container-fluid card {{ site.css }} z-depth-2 waves-effect waves-light">
@@ -429,8 +439,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Post</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'>Bookmark!</button>
+                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">Repository Unavailable</button>
                 </div>
             </div>
         </div>
@@ -463,8 +472,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">Tech involved</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'> Get the code</button>
+                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">Repository Unavailable</button>
                 </div>
             </div>
         </div>
@@ -489,8 +497,7 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">Tech involved</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'> Get the code</button>
+                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">Repository Unavailable</button>
                 </div>
             </div>
         </div>
@@ -515,13 +522,9 @@ layout: default
 					</p>
                 </div>
                 <div class="card-action {{ site.css }} darken-2">
-                    <button href="{{ post.url | prepend: site.baseurl }}" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">Tech involved</button>
-                    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn" href='#'> Get the code</button>
+                    <button onClick="window.open('https://github.com/aluitink/NetMon');" class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-light btn">View Repository</button>
                 </div>
             </div>
         </div>
-
-
-
     </div>
 </div>
