@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Thanks for visiting! My name is Andrew Luitink, I am a software development professional and a technology enthusiest. I live and breath for technology and love inventing.
+Thanks for visiting! My name is Andrew Luitink, I am a software development professional and a technology enthusiast. I live and breath for technology and love inventing.
 
 My favorite language is C# and I have spent the last five years developing software in the Microsoft realm. I see the .NET Framework as the next step in the evolution of cross platform development.
 
