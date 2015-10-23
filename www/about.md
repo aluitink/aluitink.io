@@ -4,8 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel purus sagittis, eleifend ante quis, tempus lectus. Vivamus maximus nibh lectus, sed gravida sapien imperdiet in. Curabitur non purus rutrum, iaculis mauris ac, placerat turpis. Donec vel semper enim, ut ultrices sem. Fusce rutrum, justo id porta malesuada, purus erat gravida metus, sit amet viverra turpis lacus nec mi. Aliquam et mi vel ipsum mollis aliquam eu eget augue. Morbi congue eros id nisl sagittis accumsan. Nam nec odio dolor.
+Thanks for visiting! My name is Andrew Luitink, I am a software development professional and a technology enthusiest. I live and breath for technology and love inventing.
 
-Integer accumsan, turpis a egestas malesuada, lorem ex blandit nulla, in condimentum lectus quam et dolor. Ut dapibus, sem et efficitur efficitur, urna turpis dictum tellus, non lacinia leo sem sit amet leo. Phasellus tortor dui, consectetur sed felis in, dapibus tincidunt nisi. Nam faucibus, dolor nec ultricies euismod, risus magna condimentum elit, et dictum lorem nunc eu orci. Mauris efficitur sollicitudin mi, nec condimentum nunc euismod vel. Integer ac dictum elit. Vivamus in dui ac arcu laoreet dictum.
+My favorite language is C# and I have spent the last five years developing software in the Microsoft realm. I see the .NET Framework as the next step in the evolution of cross platform development.
 
-Curabitur congue aliquet nulla, ac hendrerit leo dictum in. Cras at tristique quam. Praesent euismod nec dui eu vulputate. Quisque sit amet gravida elit. Suspendisse euismod urna ut efficitur facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla, ipsum tempor ullamcorper pellentesque, purus tellus convallis ex, quis viverra arcu metus at est. Aliquam erat volutpat. Suspendisse dictum, nunc in dictum ultrices, sapien arcu venenatis tortor, eget dictum nulla sem quis nibh. Nunc id malesuada odio. Sed in dolor accumsan, vehicula neque ut, pretium est. Cras feugiat nunc et neque sagittis, in aliquam velit mattis. Nulla in massa mi. In eget efficitur neque, sit amet porttitor diam. Integer sed posuere sapien.
+On the cold and rainy days, I enjoy writing software, doing live development webcasts, and watching Netflix. On the nicer days I try to stay active with hiking, biking, running, and exploring.
+
+I have a two year old Boxer named Kate, she keeps me active even on the days I want to be lazy.
+
+Special thanks to:
+
+MaterializeCSS, Skrollr, Scrolline.js, Jekyll
+
+material by naveenshaji (website template) https://github.com/naveenshaji/material

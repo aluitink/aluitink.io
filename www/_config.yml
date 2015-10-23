@@ -23,19 +23,16 @@
 
 
 # Site settings
-title: material
-email: naveen@pixelblenders.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hello, I'm Naveen, a freelance front-end developer
-  and UI designer. Check out my projects on GitHub
+title: aluitink.io
+email: aluitink@gmail.com
+description: "Hello, I'm Andrew, a software developer. Check out my projects on BitBucket."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://test.io/" # the base hostname & protocol for your site
+url: "http://aluitink.io" # the base hostname & protocol for your site
 port: 80
-twitter_username: navvenshady
-github_username:  naveenshaji
-css: "cyan"
-scroll-cursor: "#00BCD4"
-scroll-rail: "#0097A7"
+github_username:  aluitink
+css: "blue"
+scroll-cursor: "#2196F3"
+scroll-rail: "#1976D2"
 
 # Build settings
 markdown: kramdown

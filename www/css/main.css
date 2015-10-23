@@ -23,6 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 body {
+	font-family: 'junction_regularregular';
     margin: 0;
     padding: 0;
     text-align: justify;
@@ -160,7 +161,7 @@ nav {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 150px;
+    font-size: 6vw;
     overflow: hidden;
     text-overflow: clip; /*add max-width */
     max-width: 100%;
@@ -245,7 +246,7 @@ nav {
         height: 300px;
     }
     .scroll-1 .card .cover {
-        height: 600px;
+        height: 400px;
     }
 }
 
@@ -254,7 +255,7 @@ nav {
         height: 300px;
     }
     .scroll-1 .card .cover {
-        height: 500px;
+        height: 300px;
     }
 }
 
@@ -263,7 +264,7 @@ nav {
         height: 300px;
     }
     .scroll-1 .card .cover {
-        height: 400px;
+        height: 200px;
     }
 }
 /* Portrait tablet to landscape and desktop */
@@ -273,7 +274,7 @@ nav {
         height: 200px;
     }
     .scroll-1 .card .cover {
-        height: 250px;
+        height: 300px;
     }
 }
 /* Landscape phone to portrait tablet */
@@ -306,6 +307,31 @@ nav {
     }
 }
 
+@font-face {
+    font-family: 'junction_regularregular';
+    src: url('/font/junction-regular/Junction-webfont.eot');
+    src: url('/font/junction-regular/Junction-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/junction-regular/Junction-webfont.woff') format('woff'),
+         url('/font/junction-regular/Junction-webfont.ttf') format('truetype'),
+         url('/font/junction-regular/Junction-webfont.svg#junction_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .scrollToTop i {
     font-size: 50px;
 }
+
+.profile-circular{
+ width: 400px;
+ height: 400px;
+ background-image: url('/img/profile.jpg');
+ background-size: cover;
+ display: block;
+ border-radius: 200px;
+ -webkit-border-radius: 200px;
+ -moz-border-radius: 200px;
+ margin: 0 auto;
+}
+
