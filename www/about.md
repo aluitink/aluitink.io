@@ -16,4 +16,4 @@ Special thanks to:
 
 MaterializeCSS, Skrollr, Scrolline.js, Jekyll
 
-material by naveenshaji (website template) https://github.com/naveenshaji/material
+[material by naveenshaji (website template)](https://github.com/naveenshaji/material)
