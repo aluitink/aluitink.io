@@ -7,7 +7,7 @@ cover: "/img/2.jpg"
 
 I'm having some odd HttpClient issues with Ojibwe when running my benchmarking application. It seems that every now and then the request method, as parsed by the server shows up as ""POST with two double quotes in front of it.
 
-I'm working around the issues with this middleware shim... but this is a bit rediculous.
+I'm working around the issues with this middleware shim... but this is a bit ridiculous.
 
 {% highlight csharp %}
 
@@ -48,7 +48,7 @@ public class ErrorLoggingMiddleware
 
 {% endhighlight %}
 
-This is all a bit rediculous, and i'm not even sure who is to blame at this point. I'm going to need to devise a number of tests to figure out exactly who is at fault.
+This is all a bit ridiculous, and i'm not even sure who is to blame at this point. I'm going to need to devise a number of tests to figure out exactly who is at fault.
 
 Players:
 DNX
